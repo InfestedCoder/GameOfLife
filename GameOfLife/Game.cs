@@ -19,11 +19,6 @@ namespace GameOfLife
                 return true;
             }
 
-            if (liveCell == false && numberOfNeighbors == 2 || numberOfNeighbors == 1)
-            {
-                return false;
-            }
-
             return false;
         }
     }
